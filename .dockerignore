@@ -29,3 +29,7 @@ frontend/.yarn/install-state.gz
 livestreams.dat
 .vite/deps
 archive.txt
+node_modules
+frontend/node_modules
+.git
+*.log
