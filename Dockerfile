@@ -21,7 +21,7 @@ RUN pnpm run build
 # -----------------------------------------------------------------------------
 # BACKEND BUILD (Go)
 # -----------------------------------------------------------------------------
-FROM golang:1.22 AS build
+FROM golang:1.24 AS build
 
 WORKDIR /usr/src/yt-dlp-webui
 
